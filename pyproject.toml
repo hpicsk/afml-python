@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afml"
+version = "1.0.0"
+description = "Advances in Financial Machine Learning - Refactored Library"
+authors = [{name = "hpicsk"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "statsmodels",
+    "cvxpy",
+    "joblib",
+    "psutil",
+    "tqdm",
+    "scipy",
+]
+
+[project.urls]
+Repository = "https://github.com/hpicsk/afml"
+
+[tool.setuptools]
+packages = ["afml"]
