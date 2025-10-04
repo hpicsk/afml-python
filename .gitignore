@@ -118,4 +118,4 @@ dmypy.json
 .pyre/
 
 # AFML books chapters directory
-afml_books_chapters/
+afml_book_chapters/
